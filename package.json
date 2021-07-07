@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node" : ">=0.10.3 <0.12" 
+    "node": ">=0.10.3 <0.12"
   },
   "scripts": {
     "dev": "next dev",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
